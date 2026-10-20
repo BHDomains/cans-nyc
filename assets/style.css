@@ -44,6 +44,8 @@ a:hover{color:var(--green-deep)}
 .hero .lede{font-size:clamp(17px,2.6vw,21px);color:var(--ink-soft);max-width:56ch;margin-top:14px}
 .verifyline{margin-top:18px;font-size:17px;line-height:1.5;font-family:var(--sans);color:var(--ink-soft);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .verifyline .mk{font-weight:700;font-size:.8em}
+.verifyline{flex-wrap:nowrap;align-items:flex-start}
+.verifyline .tick{flex:none;margin-top:.6em}
 .verifyline .tick{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--green)}
 
 /* live notice */
