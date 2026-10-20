@@ -42,7 +42,8 @@ a:hover{color:var(--green-deep)}
 .hero{padding:44px 0 34px;border-bottom:1px solid var(--line);background:var(--card)}
 .hero h1{font-size:clamp(32px,6vw,52px);line-height:1.05;letter-spacing:-.03em;font-weight:800;max-width:16ch}
 .hero .lede{font-size:clamp(17px,2.6vw,21px);color:var(--ink-soft);max-width:56ch;margin-top:14px}
-.verifyline{margin-top:18px;font-size:13px;color:var(--ink-faint);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.verifyline{margin-top:18px;font-size:17px;line-height:1.5;font-family:var(--sans);color:var(--ink-soft);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.verifyline .mk{font-weight:700;font-size:.8em}
 .verifyline .tick{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--green)}
 
 /* live notice */
@@ -165,7 +166,8 @@ table.rules td{padding:10px;border-bottom:1px solid var(--line);vertical-align:t
 .news-item p{font-size:15px;color:var(--ink-soft);margin-bottom:8px}
 .news-item .src{font-size:13px;color:var(--ink-faint)}
 
-.updated{font-family:var(--mono);font-size:12px;color:var(--ink-faint);margin:4px 0 18px}
+.updated{font-family:var(--sans);font-size:17px;line-height:1.5;color:var(--ink-soft);margin:6px 0 18px}
+.updated .mk{font-weight:700;font-size:.8em;margin-right:.3em}
 
 /* footer */
 .sitefoot{margin-top:60px;border-top:2px solid var(--ink);background:var(--card)}
